@@ -1,116 +1,317 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blog Template for Bootstrap</title>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/style.css" />
 
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
-</head>
-<body>
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <div class="container">
-        <header class="header">
-              <div class="subscribe">
-                <a class="aLink" href="#">Subscribe</a>
-              </div>
-              <div class="large">
-                <a class="largeLink" href="#">Large</a>
-              </div>
-              <div class="nav-links">
-                <a class="aLink search" href="#">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mx-3"><circle cx="10.5" cy="10.5" r="7.5"></circle><line x1="21" y1="21" x2="15.8" y2="15.8"></line></svg>
-                </a>
-                  <a class="signLink" href="#">Sign up</a>
-                </div>
-          </header>
-          <div class="subLinks-container">
-            <nav class="nav-subLinks">
-              <a class="world" href="#">World</a>
-              <a class="us" href="#">U.S.</a>
-              <a class="technology" href="#">Technology</a>
-              <a class="design" href="#">Design</a>
-              <a class="culture" href="#">Culture</a>
-              <a class="business" href="#">Business</a>
-              <a class="politics" href="#">Politics</a>
-              <a class="opinion" href="#">Opinion</a>
-              <a class="science" href="#">Science</a>
-              <a class="health" href="#">Health</a>
-              <a class="style" href="#">Style</a>
-              <a class="travel" href="#">Travel</a>
-            </nav>
+      <header class="header">
+        <div class="subscribe">
+          <a class="aLink" href="#">Subscribe</a>
+        </div>
+        <div class="large">
+          <a class="largeLink" href="#">Large</a>
+        </div>
+        <div class="nav-links">
+          <a class="aLink search" href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="mx-3"
+            >
+              <circle cx="10.5" cy="10.5" r="7.5"></circle>
+              <line x1="21" y1="21" x2="15.8" y2="15.8"></line>
+            </svg>
+          </a>
+          <a class="signLink" href="#">Sign up</a>
+        </div>
+      </header>
+      <div class="subLinks-container">
+        <nav class="nav-subLinks">
+          <a class="world" href="#">World</a>
+          <a class="us" href="#">U.S.</a>
+          <a class="technology" href="#">Technology</a>
+          <a class="design" href="#">Design</a>
+          <a class="culture" href="#">Culture</a>
+          <a class="business" href="#">Business</a>
+          <a class="politics" href="#">Politics</a>
+          <a class="opinion" href="#">Opinion</a>
+          <a class="science" href="#">Science</a>
+          <a class="health" href="#">Health</a>
+          <a class="style" href="#">Style</a>
+          <a class="travel" href="#">Travel</a>
+        </nav>
+      </div>
+
+      <div class="blog-title-container">
+        <div class="blog-title">
+          <h1 class="title">Title of a longer featured blog post</h1>
+          <p class="lines">
+            Multiple lines of text that form the lede, informing new readers
+            quickly and efficiently about what's most interesting in this post's
+            contents.
+          </p>
+          <p class="readMore">
+            <a href="#" class="readMoreLink">Continue reading...</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="card-container">
+        <div class="cardOne">
+          <div class="cardOne-detail">
+            <div class="strong-word-one">World</div>
+            <h3 class="titles-card">Featured post</h3>
+            <div class="date">Nov 12</div>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content.
+            </p>
+            <a class="readMore-card" href="#">Continue reading</a>
+          </div>
+          <div class="thumb">
+            <p class="thumbnail">Thumbnail</p>
+          </div>
+        </div>
+        <div class="cardTwo">
+          <div class="cardTwo-detail">
+            <div class="strong-word-two">Design</div>
+            <h3 class="titles-card">Post title</h3>
+            <div class="date">Nov 11</div>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content.
+            </p>
+            <a class="readMore-card" href="#">Continue reading</a>
+          </div>
+          <div class="thumb">
+            <p class="thumbnail">Thumbnail</p>
+          </div>
+        </div>
+      </div>
+
+      <main class="content-container">
+        <div class="main-container">
+          <h3 class="fireHouse">From the Firehose</h3>
+          <h2 class="blog-post-title">Sample blog post</h2>
+          <p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p>
+
+          <p>
+            This blog post shows a few different types of content that's
+            supported and styled with Bootstrap. Basic typography, images, and
+            code are all supported.
+          </p>
+          <hr />
+
+          <p>
+            Cum sociis natoque penatibus et magnis
+            <a class="link101" href="#">dis parturient montes</a>, nascetur
+            ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia
+            quam venenatis vestibulum. Sed posuere consectetur est at lobortis.
+            Cras mattis consectetur purus sit amet fermentum.
+          </p>
+          <p>
+            Curabitur blandit tempus porttitor.
+            <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu
+            leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
+          </p>
+          <p>
+            Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis
+            consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla
+            sed consectetur.
+          </p>
+
+          <h2 class="heading101">Heading</h2>
+
+          <p>
+            Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
+            auctor. Duis mollis, est non commodo luctus, nisi erat porttitor
+            ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac
+            consectetur ac, vestibulum at eros.
+          </p>
+
+          <h3 class="heading102">Sub-heading</h3>
+
+          <p>
+            Cum sociis natoque penatibus et magnis dis parturient montes,
+            nascetur ridiculus mus.
+          </p>
+          <pre><code>Example code block</code></pre>
+          <p>
+            Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem
+            malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus
+            commodo, tortor mauris condimentum nibh, ut fermentum massa.
+          </p>
+
+          <h3 class="heading102">Sub-heading</h3>
+
+          <p>
+            Cum sociis natoque penatibus et magnis dis parturient montes,
+            nascetur ridiculus mus. Aenean lacinia bibendum nulla sed
+            consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce
+            dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
+            ut fermentum massa justo sit amet risus.
+          </p>
+
+          <ul>
+            <li>
+              Praesent commodo cursus magna, vel scelerisque nisl consectetur
+              et.
+            </li>
+            <li>Donec id elit non mi porta gravida at eget metus.</li>
+            <li>Nulla vitae elit libero, a pharetra augue.</li>
+          </ul>
+          <p>
+            Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit
+            libero, a pharetra augue.
+          </p>
+          <ol>
+            <li>Vestibulum id ligula porta felis euismod semper.</li>
+            <li>
+              Cum sociis natoque penatibus et magnis dis parturient montes,
+              nascetur ridiculus mus.
+            </li>
+            <li>
+              Maecenas sed diam eget risus varius blandit sit amet non magna.
+            </li>
+          </ol>
+          <p>
+            Cras mattis consectetur purus sit amet fermentum. Sed posuere
+            consectetur est at lobortis.
+          </p>
+
+          <h2 class="blog-post-title">Another blog post</h2>
+          <p class="blog-post-meta">
+            December 23, 2013 by <a class="jacob" href="#">Jacob</a>
+          </p>
+
+          <p>
+            Cum sociis natoque penatibus et magnis
+            <a class="link101" href="#">dis parturient montes</a>, nascetur
+            ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia
+            quam venenatis vestibulum. Sed posuere consectetur est at lobortis.
+            Cras mattis consectetur purus sit amet fermentum.
+          </p>
+
+          <p>
+            Curabitur blandit tempus porttitor.
+            <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu
+            leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
+          </p>
+
+          <p>
+            Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis
+            consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla
+            sed consectetur.
+          </p>
+          <p>
+            Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
+            auctor. Duis mollis, est non commodo luctus, nisi erat porttitor
+            ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac
+            consectetur ac, vestibulum at eros.
+          </p>
+
+          <h2 class="blog-post-title">New feature</h2>
+          <p class="blog-post-meta">
+            December 14, 2013 by <a href="#">Chris</a>
+          </p>
+
+          <p>
+            Cum sociis natoque penatibus et magnis dis parturient montes,
+            nascetur ridiculus mus. Aenean lacinia bibendum nulla sed
+            consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce
+            dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
+            ut fermentum massa justo sit amet risus.
+          </p>
+          <ul>
+            <li>
+              Praesent commodo cursus magna, vel scelerisque nisl consectetur
+              et.
+            </li>
+            <li>Donec id elit non mi porta gravida at eget metus.</li>
+            <li>Nulla vitae elit libero, a pharetra augue.</li>
+          </ul>
+          <p>
+            Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis
+            consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla
+            sed consectetur.
+          </p>
+          <p>
+            Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit
+            libero, a pharetra augue.
+          </p>
+
+          <nav class="pagination">
+            <a class="older" href="#">Older</a>
+            <a class="newer" href="#">Newer</a>
+          </nav>
+        </div>
+
+
+        <div class="aside-container">
+          <div class="about-container">
+            <h4 class="about-title">About</h4>
+            <p class="aside-text">
+              Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras
+              mattis consectetur purus sit amet fermentum. Aenean lacinia
+              bibendum nulla sed consectetur.
+            </p>
           </div>
 
-
-          <div class="blog-title-container">
-            <div class="blog-title">
-              <h1 class="title">Title of a longer featured blog post</h1>
-              <p class="lines">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what's most interesting in this post's contents.</p>
-              <p class="readMore">
-                <a href="#" class="readMoreLink">Continue reading...</a></p>
-            </div>
+          <div class="archive-container">
+            <h4 class="archive-title">Archives</h4>
+            <ol class="archive-list">
+              <li><a href="#">March 2014</a></li>
+              <li><a href="#">February 2014</a></li>
+              <li><a href="#">January 2014</a></li>
+              <li><a href="#">December 2013</a></li>
+              <li><a href="#">November 2013</a></li>
+              <li><a href="#">October 2013</a></li>
+              <li><a href="#">September 2013</a></li>
+              <li><a href="#">August 2013</a></li>
+              <li><a href="#">July 2013</a></li>
+              <li><a href="#">June 2013</a></li>
+              <li><a href="#">May 2013</a></li>
+              <li><a href="#">April 2013</a></li>
+            </ol>
           </div>
 
-          <div class="card-container">
-            <div class="cardOne">
-              <div class="cardOne-detail">
-                <div class="strong-word-one">World</div>
-                <h3 class="titles-card">Featured post</h3>
-                <div class="date">Nov 12</div>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-              <a class="readMore-card"href="#">Continue reading</a>
-              </div>
-              <div class="thumb">
-                <p class="thumbnail">Thumbnail</p>
-              </div>
-            </div>
-            <div class="cardTwo">
-              <div class="cardTwo-detail">
-                <div class="strong-word-two">Design</div>
-                <h3 class="titles-card">Post title</h3>
-                <div class="date">Nov 11</div>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-              <a class="readMore-card" href="#">Continue reading</a>
-              </div>
-              <div class="thumb">
-                <p class="thumbnail">Thumbnail</p>
-              </div>
-            </div>
+          <div class="else-container">
+            <h4 class="else-title">Elsewhere</h4>
+            <ol class="else-list">
+              <li><a href="#">GitHub</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Facebook</a></li>
+            </ol>
           </div>
+        </div>
 
-          <main class="content-container">
-              <div class="main-container">
-                <h3 class="fireHouse">
-                  From the Firehose
-                </h3>
-                <h2 class="blog-post-title">
-                  Sample blog post
-                </h2>
-                <p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p>
-
-
-                <p>This blog post shows a few different types of content that's supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p>
-                <hr>
-                
-            <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
-            <blockquote>
-              <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            </blockquote>
-            <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-            <h2>Heading</h2>
-            <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-            <h3>Sub-heading</h3>
-            <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-            <pre><code>Example code block</code></pre>
-            <p>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
-            <h3>Sub-heading</h3>
-            <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-              </div>
-              <div class="aside-container">
-                <h4 class="about-title">About</h4>
-                <p class="aside-text">Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-              </div>
-          </main>
+      </main>
     </div>
-</body>
+    <footer class="blog-footer">
+      <p class="footer-center">
+        Blog template built for 
+        <a class="boot" href="https://getbootstrap.com/"> Bootstrap </a>  by
+        <a class="twt" href="https://twitter.com/mdo">@mdo.</a>
+      </p>
+      <p class="footer-center">
+        <a href="#">Back to top</a>
+      </p>
+    </footer>
+  </body>
 </html>
